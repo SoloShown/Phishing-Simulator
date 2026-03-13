@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Profile</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="profile-container">
+        <header class="profile-header">
+            <div class="cover-photo">
+                <img src="https://picsum.photos/800/200?random=1" alt="Cover">
+            </div>
+            <div class="profile-info">
+                <img src="https://i.pravatar.cc/150?u=default" alt="Avatar" class="avatar" id="avatar">
+                <div class="user-details">
+                    <h2 id="userEmail">Loading...</h2>
+                    <p>Member since 2025</p>
+                </div>
+                <button onclick="logout()" class="logout-btn">Logout</button>
+            </div>
+        </header>
+
+        <div class="simulation-banner" id="simulationBanner" style="display: none;">
+            <i class="fas fa-shield-alt"></i>
+            <div>
+                <strong>Phishing Simulation</strong> – 
+                You have logged in with <span id="bannerEmail"></span>.
+                Never provide credentials on suspicious sites.
+            </div>
+        </div>
+
+        <div class="feed">
+            <div class="post">
+                <div class="post-author">
+                    <img src="https://i.pravatar.cc/50?u=1" alt="User">
+                    <div>
+                        <strong>SocialClone</strong> <span>· 5 min</span>
+                    </div>
+                </div>
+                <p>Welcome to your feed! This is a simulation for cybersecurity awareness.</p>
+                <img src="https://picsum.photos/600/300?random=2" alt="Post image">
+                <div class="post-actions">
+                    <span><i class="far fa-heart"></i> 123</span>
+                    <span><i class="far fa-comment"></i> 45</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="https://i.pravatar.cc/50?u=2" alt="User">
+                    <div>
+                        <strong>Security training</strong> <span>· 2 hours</span>
+                    </div>
+                </div>
+                <p>Remember: no reputable company will ever ask you for your password via email or link.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/profile.js"></script>
+</body>
+</html>
