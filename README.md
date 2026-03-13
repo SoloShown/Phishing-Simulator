@@ -1,4 +1,4 @@
-# Phishing Awareness Simulation Tool
+# Phishing Simulation Tool
 
 Educational cybersecurity project that demonstrates how phishing attacks work in a controlled environment.
 
@@ -46,8 +46,8 @@ npm -v
 ## 2. Clone the Repository
 
 ```
-git clone https://github.com/yourusername/phishing-awareness-simulator.git
-cd phishing-awareness-simulator
+git clone https://github.com/soloshown/phishing-simulator.git
+cd phishing-simulator
 ```
 
 ---
@@ -114,7 +114,7 @@ Password: 123456
 # Project Structure
 
 ```
-phishing-awareness-simulator
+phishing-simulator
 │
 ├── server.js
 │
